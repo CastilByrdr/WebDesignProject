@@ -1,0 +1,197 @@
+#Final{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(Final_World.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 0.1em;
+}
+#Final header{
+    padding-top: 20px;
+}
+#Final h1{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+}
+#Final p{
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
+    width: 300px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+#Oblivion{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(CastleOblivionB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    letter-spacing: 0.1em;
+}
+#Oblivion header{
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 3px darkblue;
+}
+#Oblivion main{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+#Oblivion div{
+    margin:25px;
+    height: 500px;
+    width: 500px;
+    background-image: url(CastleOblivion.jpg);
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+}
+#Oblivion img{
+    width: 99%;
+    height: 50%;
+}
+#Oblivion p{
+    font-weight: 110;
+}
+#Oblivion footer{
+    text-shadow: 2px 2px 3px darkblue;
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: line-through;
+}
+#Empty{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(World_of_Nothing_01_KHII.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    letter-spacing: 0.1em;
+}
+#Empty header{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 35%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 3px whitesmoke;
+}
+#Empty .container{
+    text-decoration: overline;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 600px auto;
+    grid-template-columns: auto;
+    grid-column: 1/-1;
+}
+#Empty img{
+    width:23%;
+    height: 100%;
+}
+#Empty p{
+    font-weight: 550;
+}
+#Empty footer{
+    text-shadow: 2px 2px 3px whitesmoke;
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: line-through;
+}
+#Twilight{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(Twilight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    letter-spacing: 0.1em;
+}
+#Twilight p{
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+    color: aliceblue;
+    text-decoration: line-through;
+    text-shadow: 2px 2px 3px royalblue;
+}
+#Nothing{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-image: url(Where_Nothing_Gathers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    letter-spacing: 0.1em;
+}
+#Nothing header{
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 3px whitesmoke;
+}
+#Nothing main{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 2px whitesmoke;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+#Nothing i{
+    display: inline-block;
+}
+#Nothing .Contact li{
+    list-style-type: none;
+    text-shadow: 2px 2px 2px whitesmoke;
+    padding-right: 30px;
+}
+#Nothing footer{
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+    text-decoration: line-through;
+    text-shadow: 2px 2px 3px royalblue;
+}
+nav ul{
+    list-style-type: none;
+    word-spacing: 5em;
+    text-decoration: underline;
+    display: inline-block;
+}
+nav li{
+    display: inline-block;
+    text-decoration: underline;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+@media only screen and (max-width: 800px) {
+    nav li{
+        display: block;
+    }
+}
